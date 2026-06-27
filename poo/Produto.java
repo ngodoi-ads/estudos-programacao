@@ -32,7 +32,6 @@ public class MainProduto {
         Produto produto2 =
         new Produto("Smartphone",1500.00,20);
 
-
         produto1.exibirInformacoes();
         produto2.exibirInformacoes();
 
