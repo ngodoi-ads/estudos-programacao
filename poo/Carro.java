@@ -4,7 +4,6 @@ public class Carro {
     String modelo;
     int ano;
 
-
     // Construtor padrão
     public Carro(){
 
@@ -13,7 +12,6 @@ public class Carro {
         ano = 0;
 
     }
-
 
     // Construtor com dois parâmetros
     public Carro(String marca, String modelo){
@@ -24,7 +22,6 @@ public class Carro {
 
     }
 
-
     // Construtor com três parâmetros
     public Carro(String marca, String modelo, int ano){
 
@@ -34,7 +31,6 @@ public class Carro {
 
     }
 
-
     public void exibirDetalhes(){
 
         System.out.println("Marca: " + marca);
@@ -43,5 +39,28 @@ public class Carro {
 
     }
 
+}
+public class Aplicacao {
+
+    public static void main(String[] args){
+
+
+        Carro carro1 = new Carro();
+
+        Carro carro2 =
+        new Carro("Toyota","Corolla");
+
+
+        Carro carro3 =
+        new Carro("Honda","Civic",2025);
+
+
+        carro1.exibirDetalhes();
+
+        carro2.exibirDetalhes();
+
+        carro3.exibirDetalhes();
+
+    }
 
 }
